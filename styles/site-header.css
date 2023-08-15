@@ -1,0 +1,65 @@
+.header {
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(216, 216, 216);
+
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 150px;
+}
+
+.hamburger-menu {
+  height: 24px;
+  position: relative;
+}
+
+.hamburger-menu .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -28px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.hamburger-menu:hover .tooltip {
+  opacity: 1;
+}
+
+.site-award-image {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+}
+
+.page-header {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 200px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      First Website
+    </title>
+  </head>
+  <body>
+    <p>
+      Todo List
+    </p>
+    <input placeholder="Todo name" class="js-name-input">
+    <button id="addButton" onclick="
+    this.style.display='none';
+  ">
+      Add
+    </button>
+
+    <p>
+      Paragraph of Text
+    </p>
+
+    <a href="https://www.youtube.com/" target="_blank">
+      Link to Youtube
+    </a>
+
+
+    <!--Enter name: <input type="text" value="Mickey" oninput="myFunction()">
+    <p id="demo"></p>
+    -->
+    <script>
+
+
+      const element = document.getElementById('addButton');
+      element.addEventListener('click', addName);
+      function addName() {
+        const fieldEntry = document.querySelector('input');
+        //const addButton = document.querySelector('button');
+        const selectedName = document.createElement('p');
+        selectedName.innerHTML = `$[]`;
+        //const editButton = document.createElement('button');
+        //editButton.innerHTML = 'Edit';
+        fieldEntry.parentNode.replaceChild(selectedName, fieldEntry);
+        //addButton.parentNode.replaceChild(editButton, addButton);
+
+        console.log(selectedName.innerHTML);
+      }
+
+      /*
+      function addEdit() {
+        const addButton = document.querySelector('button');
+        const editButton = document.createElement('button');
+        editButton.innerHTML = 'Edit';
+        addButton.parentNode.replaceChild(editButton, addButton);
+      }
+    */
+
+      /*
+      Replacing an element for another Element!
+
+      const fieldEntry = document.querySelector('input')
+      const selectedName = document.createElement('p');
+      selectedName.innerHTML = 'Trevor';
+      fieldEntry.parentNode.replaceChild(selectedName, fieldEntry);
+      */
+
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "The value of the input field was changed.";
+      }
+
+
+      function addTodo() {
+        const inputElement = document.querySelector('.js-name-input');
+        const name = inputElement.value;
+        console.log(name);
+      }
+
+      inputElement = `<p>$[name]</p>`
+
+    </script>
+  </body>
+
+</html>

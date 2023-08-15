@@ -1,0 +1,15 @@
+body {
+  font-family: Raleway;
+  color: black;
+  margin: 0;
+  height: 3000px;
+  padding-top: 110px;
+  padding-left: 10px;
+  background-color: aqua;
+}
+
+button {
+  color: grey;
+  background-color: transparent;
+  border: none;
+}

@@ -1,0 +1,155 @@
+
+
+.user-name-button {
+  background-color: blue;
+  color: white;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.film-button {
+  background-color: blue;
+  color: white;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.new-drafter {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.new-drafter .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -28px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.new-drafter:hover .tooltip {
+  opacity: 1;
+}
+
+.edit-button {
+  color: grey;
+  background-color: transparent;
+  border: none;
+}
+
+.profile-pic-button {
+  background-color: transparent;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 2px;
+
+  position: relative;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.profile-pic-button .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.profile-pic-button:hover .tooltip {
+  opacity: 1;
+}
+
+.name-entry {
+  font-size: 16px;
+}
+
+.film-entry {
+  font-size: 14px;  
+}
+
+.user-info {
+  width: 500px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  border-top: 0px;
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 50px 300px 100px;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.my-info {
+  width: 500px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 50px 300px 100px;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.point-graph {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.film-title {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.award-show {
+  display: inline-block;
+}
+
+.nominations {
+  display: inline-block;
+}
+
+.wins {
+  display: inline-block;
+}

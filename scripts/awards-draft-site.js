@@ -91,3 +91,67 @@ function addUserName() {
   console.log(selectedName.innerHTML)
 }
 */
+
+const filmList = ['Everything Everywhere All At Once', 'Borat'];
+
+
+/*
+const filmList = [{
+  name: 'Everything Everywhere All At Once',
+  points: '16'
+ }, {
+  name: 'Borat',
+  points: '5'
+}];
+*/
+//^Will use once I figure out points
+
+renderFilmList();
+
+function renderFilmList() {
+  let filmListHTML = '';
+
+/*
+  filmList.forEach(function(filmObject, index) {
+    //const name = filmObject.name;
+    //const points = filmObject.points;
+    const { name, points } = filmObject
+    const html = `<p>${name} ${points}</p>`;
+    filmListHTML += html;
+  })
+*/
+//^Preferred method
+
+  for (let i = 0; i < filmList.length; i++) {
+    if (i === 8) {
+      break;
+      if (i += 8) {
+        alert("Only 8 films can be submitted.")};
+    }
+    const film = filmList[i];
+    //const name = filmObject.name;
+    //const points = filmObject.points;
+    //const { name, points } = filmObject
+    const html = `<p>${film}`;
+    //const html = `<p>${name} ${points}</p>`;
+    filmListHTML += html;
+  }
+
+
+  console.log(filmListHTML)
+
+  document.querySelector('.js-film-list')
+    .innerHTML = filmListHTML;
+}
+
+function addFilm() {
+  const inputElement = document.querySelector('.js-film-input');
+  const film = inputElement.value;
+
+  filmList.push(film);
+  console.log(filmList);
+
+  inputElement.value = '';
+
+  renderFilmList();
+}

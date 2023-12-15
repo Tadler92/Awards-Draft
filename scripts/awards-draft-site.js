@@ -617,3 +617,78 @@ const areUThereMeMargaret = {
     'Best Adapted Screenplay Nom': 1,
   }
 }
+
+
+
+
+// Adding the points using JS:
+document.body.onload = addPoints;
+const eeaaoRow = document.querySelector('#EEAAO-row');
+
+const airRow = document.querySelector('#air-row');
+const airArr = Object.values(air.Globes).concat(Object.values(air.Critics));
+const airPoints = airArr.reduce((num, next) => num + next);
+
+const colorPurpleRow = document.querySelector('#color-purple-row');
+const cpArr = Object.values(theColorPurple.Globes).concat(Object.values(theColorPurple.Critics));
+const cpPoints = cpArr.reduce((num, next) => num + next);
+
+const barbieRow = document.querySelector('#barbie-row');
+const barbieArr = Object.values(barbie.Globes).concat(Object.values(barbie.Critics));
+const barbiePoints = barbieArr.reduce((num, next) => num + next);
+
+const holdoversRow = document.querySelector('#holdovers-row');
+const holdoversArr = Object.values(theHoldovers.Globes).concat(Object.values(theHoldovers.Critics));
+const holdoverPoints = holdoversArr.reduce((num, next) => num + next);
+
+const saltburnRow = document.querySelector('#saltburn-row');
+const saltburnArr = Object.values(saltburn.Globes).concat(Object.values(saltburn.Critics));
+const saltburnPoints = saltburnArr.reduce((num, next) => num + next);
+
+const maestroRow = document.querySelector('#maestro-row');
+const maestroArr = Object.values(maestro.Globes).concat(Object.values(maestro.Critics));
+const maestroPoints = maestroArr.reduce((num, next) => num + next);
+
+const pastLivesRow = document.querySelector('#past-lives-row');
+const plArr = Object.values(pastLives.Globes).concat(Object.values(pastLives.Critics));
+const plPoints = plArr.reduce((num, next) => num + next);
+
+function addPoints() {
+  const newTd = document.createElement('td');
+  const sumOfPoints = (15 + 15 + 15);
+  newTd.innerText = `${sumOfPoints}`;
+
+  // Either Way Works
+
+  // newTd.innerText = (15 + 15 + 15);
+  // return eeaaoRow.appendChild(newTd);
+  eeaaoRow.appendChild(newTd);
+
+  const airTd = document.createElement('td');
+  airTd.innerText = `${airPoints}`;
+  airRow.appendChild(airTd);
+
+  const cpurpleTd = document.createElement('td');
+  cpurpleTd.innerText = `${cpPoints}`;
+  colorPurpleRow.appendChild(cpurpleTd);
+
+  const barbieTd = document.createElement('td');
+  barbieTd.innerText = `${barbiePoints}`;
+  barbieRow.appendChild(barbieTd);
+
+  const holdoversTd = document.createElement('td');
+  holdoversTd.innerText = `${holdoverPoints}`;
+  holdoversRow.appendChild(holdoversTd);
+
+  const saltburnTd = document.createElement('td');
+  saltburnTd.innerText = `${saltburnPoints}`;
+  saltburnRow.appendChild(saltburnTd);
+
+  const maestroTd = document.createElement('td');
+  maestroTd.innerText = `${maestroPoints}`;
+  maestroRow.appendChild(maestroTd);
+
+  const plivesTd = document.createElement('td');
+  plivesTd.innerText = `${plPoints}`;
+  pastLivesRow.appendChild(plivesTd);
+}

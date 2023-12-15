@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      Awards Draft
-    </title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+<head>
+  <title>
+    Awards Draft
+  </title>
 
-    <link rel="stylesheet" href="styles/awards-draft-site.css">
-    <link rel="stylesheet" href="styles/site-header.css">
-    <link rel="stylesheet" href="styles/site-general.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="left-section">
-        <div class="hamburger-menu">
-          <img class="hamburger-menu" src="profile-pics/hamburger-menu.svg">
-          <div class="tooltip">Menu</div>
-        </div>
-        <img class="site-award-image" src="profile-pics/draft-award-image.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/awards-draft-site.css">
+  <link rel="stylesheet" href="styles/site-header.css">
+  <link rel="stylesheet" href="styles/site-general.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <div class="hamburger-menu">
+        <img class="hamburger-menu" src="profile-pics/hamburger-menu.svg">
+        <div class="tooltip">Menu</div>
       </div>
-      <div class="middle-section">
-        <p class="page-header">
-          Awards Draft 2024
-        </p>
-      </div>
+      <img class="site-award-image" src="profile-pics/draft-award-image.jpeg">
     </div>
+    <div class="middle-section">
+      <p class="page-header">
+        Awards Draft 2024
+      </p>
+    </div>
+  </div>
 
-    <div class="my-info" class="user-info">
-      <button class="profile-pic-button" style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
-        
-        <div class="tooltip">&#43 New Profile Picture</div>
-      </button>
-      <input class="name-entry js-name-entry-one" type="text" placeholder="User Name">
-      <button onclick="
+  <div class="my-info" class="user-info">
+    <button class="profile-pic-button"
+      style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
+
+      <div class="tooltip">&#43 New Profile Picture</div>
+    </button>
+    <input class="name-entry js-name-entry-one" type="text" placeholder="User Name">
+    <button onclick="
         addUserName();
       " class="user-name-button">
-        SUBMIT
-      </button>
-      <div></div>
-      <input class="film-entry js-film-input" type="text" placeholder="Film">
-      <button class="film-button" onclick="
+      SUBMIT
+    </button>
+    <div></div>
+    <input class="film-entry js-film-input" type="text" placeholder="Film">
+    <button class="film-button" onclick="
       addFilm();">
-        SUBMIT
-      </button>
-      <div></div>
-      <div>
-        <p>
+      SUBMIT
+    </button>
+    <div></div>
+    <div>
+      <p>
         Films
-        </p>
-      </div>
-      <div>
-        <p>
-        Points
-        </p>
-      </div>
-      <div></div>
-      <div class="js-film-list">
-        
-      </div>
-      <div>
-        16
-      </div>
+      </p>
     </div>
+    <div>
+      <p>
+        Points
+      </p>
+    </div>
+    <div></div>
+    <div class="js-film-list">
 
-    <div class="user-info">
+    </div>
+    <div>
+      16
+    </div>
+  </div>
 
-      <!--
+  <div class="user-info">
+
+    <!--
         Facebook's profile pic code...
       <svg aria-label="Profile picture actions" class="user-profile-picture" data-visualcompletion="ignore-dynamic" role="img" style="height: 168px; width: 168px">
         <mask id=":r7b:">
@@ -84,103 +88,151 @@
       </svg>
     -->
 
-      <!--
+    <!--
         Just my default image
       <img class="profile-pic" src="profile-pics/Empty Profile Pic.jpg">      
       -->
 
-      <button class="profile-pic-button" style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
-        
-        <div class="tooltip">&#43 New Profile Picture</div>
-      </button>
-      <input class="name-entry js-name-entry-two" type="text" placeholder="User Name">
-      <button onclick="addUserName2();"class="user-name-button js-user-name-button-two">
-        SUBMIT
-      </button>
-      <div></div>
-      <input class="film-entry" type="text" placeholder="Film">
-      <button class="film-button">
-       SUBMIT
-      </button>
-    </div>
+    <button class="profile-pic-button"
+      style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
 
-    <div class="user-info">
-      <button class="profile-pic-button" style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
-        
-        <div class="tooltip">&#43 New Profile Picture</div>
-      </button>
-      <input class="name-entry js-name-entry-three" type="text" placeholder="User Name">
-      <button onclick="addUserName3();" class="user-name-button js-user-name-button-three">
-        SUBMIT
-      </button>
-      <div></div>
-      <input class="film-entry" type="text" placeholder="Film">
-      <button class="film-button">
-        SUBMIT
-      </button>
-    </div>
+      <div class="tooltip">&#43 New Profile Picture</div>
+    </button>
+    <input class="name-entry js-name-entry-two" type="text" placeholder="User Name">
+    <button onclick="addUserName2();" class="user-name-button js-user-name-button-two">
+      SUBMIT
+    </button>
+    <div></div>
+    <input class="film-entry" type="text" placeholder="Film">
+    <button class="film-button">
+      SUBMIT
+    </button>
 
-    <div class="user-info">
-      <button class="profile-pic-button" style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
-        
-        <div class="tooltip">&#43 New Profile Picture</div>
-      </button>
-      <input class="name-entry js-name-entry-four" type="text" placeholder="User Name">
-      <button onclick="addUserName4();" class="user-name-button js-user-name-button-four">
-        SUBMIT
-      </button>
-      <div></div>
-      <input class="film-entry" type="text" placeholder="Film">
-      <button class="film-button">
-        SUBMIT
-      </button>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th class="film-column">Films</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="film-column">Everything Everywhere All At Once</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td class="film-column">Borat</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <td class="film-column">Once Upon a Time</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td class="film-column">Joker</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td class="film-column">Banshees</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td class="film-column">Up</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td class="film-column">Toy Story</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td class="film-column">CODA</td>
+          <td>60</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-    <div class="user-info">
-      <button class="profile-pic-button" style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
-        
-        <div class="tooltip">&#43 New Profile Picture</div>
-      </button>
-      <input class="name-entry js-name-entry-five" type="text" placeholder="User Name">
-      <button onclick="addUserName5();" class="user-name-button js-user-name-button-five">
-        SUBMIT
-      </button>
-      <div></div>
-      <input class="film-entry" type="text" placeholder="Film">
-      <button class="film-button">
-        SUBMIT
-      </button>
-    </div>
+  <div class="user-info">
+    <button class="profile-pic-button"
+      style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
 
-    <div>
-      <button class="new-drafter">
-        &#43 Drafter
-        <div class="tooltip">Add New Awards Drafter</div>
-      </button>
-    </div>
+      <div class="tooltip">&#43 New Profile Picture</div>
+    </button>
+    <input class="name-entry js-name-entry-three" type="text" placeholder="User Name">
+    <button onclick="addUserName3();" class="user-name-button js-user-name-button-three">
+      SUBMIT
+    </button>
+    <div></div>
+    <input class="film-entry" type="text" placeholder="Film">
+    <button class="film-button">
+      SUBMIT
+    </button>
+  </div>
 
-    <p class="point-graph">
-      Point Graph =>
-    </p>
+  <div class="user-info">
+    <button class="profile-pic-button"
+      style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
 
-    <button>Edit</button>
+      <div class="tooltip">&#43 New Profile Picture</div>
+    </button>
+    <input class="name-entry js-name-entry-four" type="text" placeholder="User Name">
+    <button onclick="addUserName4();" class="user-name-button js-user-name-button-four">
+      SUBMIT
+    </button>
+    <div></div>
+    <input class="film-entry" type="text" placeholder="Film">
+    <button class="film-button">
+      SUBMIT
+    </button>
+  </div>
+
+  <div class="user-info">
+    <button class="profile-pic-button"
+      style="background: url(profile-pics/Empty\ Profile\ Pic.jpg); background-size: cover;">
+
+      <div class="tooltip">&#43 New Profile Picture</div>
+    </button>
+    <input class="name-entry js-name-entry-five" type="text" placeholder="User Name">
+    <button onclick="addUserName5();" class="user-name-button js-user-name-button-five">
+      SUBMIT
+    </button>
+    <div></div>
+    <input class="film-entry" type="text" placeholder="Film">
+    <button class="film-button">
+      SUBMIT
+    </button>
+  </div>
+
+  <div>
+    <button class="new-drafter">
+      &#43 Drafter
+      <div class="tooltip">Add New Awards Drafter</div>
+    </button>
+  </div>
+
+  <p class="point-graph">
+    Point Graph =>
+  </p>
+
+  <button>Edit</button>
 
 
-    <script src="scripts/awards-draft-site.js">
+  <script src="scripts/awards-draft-site.js">
 
-      //Local Storage Examples
-      //localStorage.setItem('message', 'hello');
-      //localStorage.getItem('message');
-      //localStorage.setItem('score', JSON.stringify(score));
-      //JSON.parse(localStorage.getItem('score'));
-      /*let score = JSON.parse(localStorage.getItem('score')) || {
-      wins: 0
-      losses: 0
-      ties: 0
-      };
-      */
+    //Local Storage Examples
+    //localStorage.setItem('message', 'hello');
+    //localStorage.getItem('message');
+    //localStorage.setItem('score', JSON.stringify(score));
+    //JSON.parse(localStorage.getItem('score'));
+    /*let score = JSON.parse(localStorage.getItem('score')) || {
+    wins: 0
+    losses: 0
+    ties: 0
+    };
+    */
 
-      
-    </script>
-  </body>
+
+  </script>
+</body>
+
 </html>

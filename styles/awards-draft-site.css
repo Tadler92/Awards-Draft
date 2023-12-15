@@ -183,3 +183,12 @@ a:visited {
   font-size: 20px;
   font-weight: bold;
 }
+
+#graph {
+  width: 250px;
+  height: 600px;
+  /* margin-left: 600px; */
+  position: absolute;
+  top: 200px;
+  right: 5px;
+}

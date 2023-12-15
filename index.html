@@ -70,7 +70,7 @@
       16
     </div> -->
 
-    <table>
+    <table id="trevor-table">
       <thead>
         <tr>
           <th class="film-column">Films</th>
@@ -154,7 +154,7 @@
       SUBMIT
     </button> -->
 
-    <table>
+    <table id="kellie-table">
       <thead>
         <tr>
           <th class="film-column">Films</th>
@@ -215,7 +215,7 @@
       SUBMIT
     </button> -->
 
-    <table>
+    <table id="kaylyn-table">
       <thead>
         <tr>
           <th class="film-column">Films</th>
@@ -276,7 +276,7 @@
       SUBMIT
     </button> -->
 
-    <table>
+    <table id="travis-table">
       <thead>
         <tr>
           <th class="film-column">Films</th>
@@ -339,7 +339,7 @@
       SUBMIT
     </button> -->
 
-    <table>
+    <table id="kyle-table">
       <thead>
         <tr>
           <th class="film-column">Films</th>
@@ -400,7 +400,7 @@
       SUBMIT
     </button> -->
 
-    <table>
+    <table id="haley-table">
       <thead>
         <tr>
           <th class="film-column">Films</th>
@@ -455,6 +455,10 @@
     Point Graph =>
   </p>
 
+  <div id="graph">
+    <!-- <p>Hello</p> -->
+  </div>
+
   <button>Edit</button>
 
 
@@ -473,6 +477,36 @@
     */
 
 
+  </script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", { packages: ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      // Set Data
+
+      const airPts3 = document.querySelector('#kellie-table > tbody > #air-row > .points-td');
+
+      const data = google.visualization.arrayToDataTable([
+        ['Name', 'Points', { role: 'style' }, { role: 'annotation' }],
+        // ['Trevor', parseInt(`${airPoints}`), 'blue', 'Trevor'],
+        ['Trevor', (airPoints + barbiePoints), 'blue', 'Trevor'],
+        ['Kellie', 28, 'purple', 'Kellie'],
+        ['Kaylyn', 55, 'yellow', 'Kaylyn'],
+        ['Travis', 30, 'green', 'Travis'],
+        ['Kyle', 19, 'red', 'Kyle'],
+        ['Haley', 52, 'orange', 'Haley'],
+      ]);
+
+      // Set Options
+      const options = {
+        title: 'Points Leaders'
+      };
+
+      // Draw
+      const chart = new google.visualization.ColumnChart(document.getElementById('graph'));
+      chart.draw(data, options);
+    }
   </script>
 </body>
 

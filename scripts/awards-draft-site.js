@@ -666,29 +666,60 @@ function addPoints() {
 
   const airTd = document.createElement('td');
   airTd.innerText = `${airPoints}`;
+  airTd.classList.add('points-td');
   airRow.appendChild(airTd);
 
   const cpurpleTd = document.createElement('td');
   cpurpleTd.innerText = `${cpPoints}`;
+  cpurpleTd.classList.add('points-td');
   colorPurpleRow.appendChild(cpurpleTd);
 
   const barbieTd = document.createElement('td');
   barbieTd.innerText = `${barbiePoints}`;
+  barbieTd.classList.add('points-td');
   barbieRow.appendChild(barbieTd);
 
   const holdoversTd = document.createElement('td');
   holdoversTd.innerText = `${holdoverPoints}`;
+  holdoversTd.classList.add('points-td');
   holdoversRow.appendChild(holdoversTd);
 
   const saltburnTd = document.createElement('td');
   saltburnTd.innerText = `${saltburnPoints}`;
+  saltburnTd.classList.add('points-td');
   saltburnRow.appendChild(saltburnTd);
 
   const maestroTd = document.createElement('td');
   maestroTd.innerText = `${maestroPoints}`;
+  maestroTd.classList.add('points-td');
   maestroRow.appendChild(maestroTd);
 
   const plivesTd = document.createElement('td');
   plivesTd.innerText = `${plPoints}`;
+  plivesTd.classList.add('points-td');
   pastLivesRow.appendChild(plivesTd);
 }
+
+
+// Column Graph:
+// function drawChart() {
+//   // Set Data
+//   const data = google.visualization.arrayToDataTable([
+//     ['Name', 'Points', { role: 'style' }, { role: 'annotation' }],
+//     ['Trevor', 'Points', blue, 'Trevor'],
+//     ['Kellie', 'Points', purple, 'Kellie'],
+//     ['Kaylyn', 'Points', yellow, 'Kaylyn'],
+//     ['Travis', 'Points', green, 'Travis'],
+//     ['Kyle', 'Points', red, 'Kyle'],
+//     ['Haley', 'Points', orange, 'Haley'],
+//   ]);
+
+//   // Set Options
+//   const options = {
+//     title: 'Points Leaders'
+//   };
+
+//   // Draw
+//   const chart = new google.visualization.ColumnChart(document.getElementById('graph'));
+//   chart.draw(data, options);
+// }

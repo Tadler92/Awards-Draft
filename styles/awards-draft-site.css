@@ -192,3 +192,77 @@ a:visited {
   top: 200px;
   right: 5px;
 }
+
+/* Winner's Page CSS: */
+
+#ly-winner {
+  width: 400px;
+  position: relative;
+  left: 20rem;
+  border-bottom: solid gold 50px;
+  border-right: none;
+  margin-bottom: 200px;
+}
+
+#lyw-name {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  left: 25rem;
+  top: 490px;
+}
+
+.winner-pics {
+  display: block;
+  width: 200px;
+  margin-bottom: 50px;
+  border-right: solid gold 100px;
+}
+
+#kellie-2022-name {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 15rem;
+  top: 800px;
+}
+
+#kellie-2022-year {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 13.25rem;
+  top: 820px;
+}
+
+#trevor-2021-name {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 15rem;
+  top: 1100px;
+}
+
+#trevor-2021-year {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 13.25rem;
+  top: 1120px;
+}
+
+#kaylyn-2020-name {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 15rem;
+  top: 1400px;
+}
+
+#kaylyn-2020-year {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 13.25rem;
+  top: 1420px;
+}

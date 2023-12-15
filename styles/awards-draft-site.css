@@ -171,3 +171,9 @@ a:link {
 a:visited {
   color: gold;
 }
+
+#my-name {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -141,8 +141,8 @@ function renderFilmList() {
 
   console.log(filmListHTML)
 
-  document.querySelector('.js-film-list')
-    .innerHTML = filmListHTML;
+  // document.querySelector('.js-film-list')
+  //   .innerHTML = filmListHTML;
 }
 
 function addFilm() {

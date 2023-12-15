@@ -1,0 +1,8 @@
+.awards-table {
+  width: 100px;
+  /* border: 100px; */
+  margin-left: 0;
+  /* padding-right: 60px; */
+  border-spacing: 20px;
+  white-space: nowrap;
+}

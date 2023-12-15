@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../styles/awards-draft-site.css">
   <link rel="stylesheet" href="../styles/site-header.css">
   <link rel="stylesheet" href="../styles/site-general.css">
+  <link rel="stylesheet" href="../styles/info-pages.css">
 </head>
 
 <body>
@@ -37,8 +38,8 @@
     Air
   </p>
 
-  <div class="user-info">
-    <div class="award-show">
+  <div class="user-info" id="golden-globes">
+    <!-- <div class="award-show">
       <p>
         Golden Globes
       </p>
@@ -52,11 +53,29 @@
       <p>
         Wins
       </p>
-    </div>
+    </div> -->
+
+    <table class="awards-table">
+      <thead>
+        <tr>
+          <th>Golden Globes</th>
+          <th class="film-column">Nominations</th>
+          <th>Wins</th>
+        </tr>
+      </thead>
+      <tbody id="globes-table">
+        <!-- <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr> -->
+      </tbody>
+    </table>
+
   </div>
 
-  <div class="user-info">
-    <div class="award-show">
+  <div class="user-info" id="critics-choice">
+    <!-- <div class="award-show">
       <p>
         Critics Choice Awards
       </p>
@@ -70,10 +89,28 @@
       <p>
         Wins
       </p>
-    </div>
+    </div> -->
+
+    <table class="awards-table">
+      <thead>
+        <tr>
+          <th>Critics Choice Awards</th>
+          <th class="film-column">Nominations</th>
+          <th>Wins</th>
+        </tr>
+      </thead>
+      <tbody id="critics-table">
+        <!-- <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr> -->
+      </tbody>
+    </table>
+
   </div>
 
-  <div class="user-info">
+  <div class="user-info" id="sag-awards">
     <div class="award-show">
       <p>
         SAG Awards
@@ -91,7 +128,7 @@
     </div>
   </div>
 
-  <div class="user-info">
+  <div class="user-info" id="wga-awards">
     <div class="award-show">
       <p>
         WGA Awards
@@ -109,7 +146,7 @@
     </div>
   </div>
 
-  <div class="user-info">
+  <div class="user-info" id="dga-awards">
     <div class="award-show">
       <p>
         DGA Awards
@@ -145,7 +182,7 @@
     </div>
   </div>
 
-  <div class="user-info">
+  <div class="user-info" id="oscars">
     <div class="award-show">
       <p>
         Oscars
@@ -163,6 +200,7 @@
     </div>
   </div>
 
+  <script src="../scripts/info-pages.js"></script>
 </body>
 
 </html>

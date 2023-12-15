@@ -1,8 +1,22 @@
 .awards-table {
+  border: 1px solid black;
   width: 100px;
   /* border: 100px; */
   margin-left: 0;
   /* padding-right: 60px; */
   border-spacing: 20px;
+  white-space: nowrap;
+  table-layout: fixed;
+}
+
+td,
+th {
+  width: 200px;
+}
+
+.nom-column {
+  width: 100px;
+  /* border: 100px; */
+  padding-left: 60px;
   white-space: nowrap;
 }

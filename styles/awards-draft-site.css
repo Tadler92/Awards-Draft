@@ -190,7 +190,7 @@ a:visited {
   /* margin-left: 600px; */
   position: absolute;
   top: 200px;
-  right: 5px;
+  right: 10px;
 }
 
 /* Winner's Page CSS: */
@@ -209,7 +209,7 @@ a:visited {
   font-size: 30px;
   position: absolute;
   left: 25rem;
-  top: 490px;
+  top: 590px;
 }
 
 .winner-pics {
@@ -224,7 +224,7 @@ a:visited {
   font-weight: bold;
   position: absolute;
   left: 15rem;
-  top: 800px;
+  top: 950px;
 }
 
 #kellie-2022-year {
@@ -232,7 +232,7 @@ a:visited {
   font-weight: bold;
   position: absolute;
   left: 13.25rem;
-  top: 820px;
+  top: 970px;
 }
 
 #trevor-2021-name {
@@ -240,7 +240,7 @@ a:visited {
   font-weight: bold;
   position: absolute;
   left: 15rem;
-  top: 1100px;
+  top: 1250px;
 }
 
 #trevor-2021-year {
@@ -248,7 +248,7 @@ a:visited {
   font-weight: bold;
   position: absolute;
   left: 13.25rem;
-  top: 1120px;
+  top: 1270px;
 }
 
 #kaylyn-2020-name {
@@ -256,7 +256,7 @@ a:visited {
   font-weight: bold;
   position: absolute;
   left: 15rem;
-  top: 1400px;
+  top: 1580px;
 }
 
 #kaylyn-2020-year {
@@ -264,5 +264,32 @@ a:visited {
   font-weight: bold;
   position: absolute;
   left: 13.25rem;
-  top: 1420px;
+  top: 1600px;
+}
+
+
+/* About Page CSS */
+
+#points-breakdown {
+  border: 1px solid black;
+  width: 100px;
+  /* border: 100px; */
+  margin-left: 0;
+  /* padding-right: 60px; */
+  border-spacing: 20px;
+  white-space: nowrap;
+  table-layout: fixed;
+}
+
+#points-breakdown td,
+th {
+  width: 200px;
+}
+
+#points-breakdown .points-columns {
+  width: 60px;
+}
+
+.pts {
+  text-align: center;
 }

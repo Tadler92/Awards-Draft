@@ -277,18 +277,24 @@ a:visited {
   margin-left: 0;
   /* padding-right: 60px; */
   border-spacing: 20px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   table-layout: fixed;
 }
 
 #points-breakdown td,
 th {
-  width: 200px;
+  /* width: 200px; */
+  width: 250px;
+  /* border: 1px solid black; */
 }
 
 #points-breakdown .points-columns {
-  width: 60px;
+  width: 90px;
 }
+
+/* #points-breakdown tr {
+  border-bottom: 1px solid black;
+} */
 
 .pts {
   text-align: center;

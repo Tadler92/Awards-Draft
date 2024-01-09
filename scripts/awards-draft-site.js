@@ -418,6 +418,9 @@ const zoneOfInterest = {
     'Best Drama Nom': 5,
     'Best Original Score Nom': 2,
     'Best Foreign Film Nom': 2,
+  },
+  Critics: {
+    'no noms': 0
   }
 }
 const anatomyOfAFall = {
@@ -526,12 +529,12 @@ const rustin = {
     'Best Actor Nom': 3,
   },
 }
-const allOfUsStrangers = {
+const fiveNights = {
   Globes: {
-    'Best Actor Drama Nom': 4,
+    'no noms': 0,
   },
   Critics: {
-    'Best Adapted Screenplay Nom': 1,
+    'no noms': 0,
   },
 }
 const saltburn = {
@@ -552,9 +555,12 @@ const nyad = {
     'Best Supporting Actress Nom': 2,
   },
 }
-const priscilla = {
+const ironClaw = {
   Globes: {
-    'Best Actress Drama Nom': 4,
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0
   }
 }
 const theColorPurple = {
@@ -571,81 +577,186 @@ const theColorPurple = {
 const noHardFeelings = {
   Globes: {
     'Best Actress Musical/Comedy Nom': 4,
-  }
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
-const fallenLeaves = {
+const leaveWorldBehind = {
   Globes: {
-    'Best Actress Musical/Comedy Nom': 4,
-    'Best Foreign Film Nom': 2,
-  }
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0
+  },
 }
-const dreamScenario = {
+const hungerGames = {
   Globes: {
-    'Best Actor Musical/Comedy Nom': 4,
-  }
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0
+  },
 }
 const wonka = {
   Globes: {
     'Best Actor Musical/Comedy Nom': 4,
-  }
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
-const beauIsAfraid = {
+const insidious = {
   Globes: {
-    'Best Actor Musical/Comedy Nom': 4,
-  }
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0
+  },
 }
 const boyAndTheHeron = {
   Globes: {
     'Best Animated Feature Nom': 4,
     'Best Original Score Nom': 2,
+  },
+  Critics: {
+    'no noms': 0
   }
 }
-const elemental = {
+const granTurismo = {
   Globes: {
-    'Best Animated Feature Nom': 4,
-  }
+    'no noms': 0,
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
 const acrossSpiderVerse = {
   Globes: {
     'Best Animated Feature Nom': 4,
     'Best Original Score Nom': 2,
-  }
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
 const superMarioMovie = {
   Globes: {
     'Best Animated Feature Nom': 4,
     'Best Original Song Nom': 2,
-  }
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
-const suzume = {
+const dungeonsDragons = {
   Globes: {
-    'Best Animated Feature Nom': 4,
-  }
+    'no noms': 0,
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
-const wish = {
+const knockCabin = {
   Globes: {
-    'Best Animated Feature Nom': 4,
-  }
+    'no noms': 0,
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
-const sheCameToMe = {
+const johnWick = {
   Globes: {
-    'Best Original Song Nom': 2,
-  }
+    'no noms': 0,
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
-const ioCapitano = {
+const sixtyFive = {
   Globes: {
-    'Best Foreign Film Nom': 2,
-  }
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0
+  },
 }
-const societyOfTheSnow = {
+const renfield = {
   Globes: {
-    'Best Foreign Film Nom': 2,
-  }
+    'no noms': 0,
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
 const areUThereMeMargaret = {
+  Globes: {
+    'no noms': 0
+  },
   Critics: {
     'Best Adapted Screenplay Nom': 1,
   }
+}
+
+const boysBoat = {
+  Globes: {
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0,
+  }
+}
+
+const rebelMoon = {
+  Globes: {
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0,
+  },
+}
+
+const godzilla = {
+  Globes: {
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0,
+  },
+}
+
+const millionMiles = {
+  Globes: {
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0,
+  },
+}
+
+const blackberry = {
+  Globes: {
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0,
+  },
+}
+const missionImpossible = {
+  Globes: {
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0,
+  },
+}
+const clonedTyrone = {
+  Globes: {
+    'no noms': 0
+  },
+  Critics: {
+    'no noms': 0,
+  },
 }
 
 
@@ -683,6 +794,138 @@ const pastLivesRow = document.querySelector('#past-lives-row');
 const plArr = Object.values(pastLives.Globes).concat(Object.values(pastLives.Critics));
 const plPoints = plArr.reduce((num, next) => num + next);
 
+const poorThingsRow = document.querySelector('#poor-things-row');
+const ptArr = Object.values(poorThings.Globes).concat(Object.values(poorThings.Critics));
+const ptPoints = ptArr.reduce((num, next) => num + next);
+
+const boysBoatRow = document.querySelector('#boys-boat-row');
+const boysBoatArr = Object.values(boysBoat.Globes).concat(Object.values(boysBoat.Critics));
+const boysBoatPoints = boysBoatArr.reduce((num, next) => num + next);
+
+const amerFicRow = document.querySelector('#amer-fic-row');
+const amFicArr = Object.values(americanFiction.Globes).concat(Object.values(americanFiction.Critics));
+const amFicPoints = amFicArr.reduce((num, next) => num + next);
+
+const nyadRow = document.querySelector('#nyad-row');
+const nyadArr = Object.values(nyad.Globes).concat(Object.values(nyad.Critics));
+const nyadPoints = nyadArr.reduce((num, next) => num + next);
+
+const rustinRow = document.querySelector('#rustin-row');
+const rustinArr = Object.values(rustin.Globes).concat(Object.values(rustin.Critics));
+const rustinPoints = rustinArr.reduce((num, next) => num + next);
+
+const rebelMoonRow = document.querySelector('#rebel-moon-row');
+const rebMoonArr = Object.values(rebelMoon.Globes).concat(Object.values(rebelMoon.Critics));
+const rebMoonPoints = rebMoonArr.reduce((num, next) => num + next);
+
+const flowerMoonRow = document.querySelector('#flower-moon-row');
+const flowerMoonArr = Object.values(killersOfFlowerMoon.Globes).concat(Object.values(killersOfFlowerMoon.Critics));
+const flowerMoonPoints = flowerMoonArr.reduce((num, next) => num + next);
+
+const mayDecRow = document.querySelector('#may-dec-row');
+const mayDecArr = Object.values(mayDecember.Globes).concat(Object.values(mayDecember.Critics));
+const mayDecPoints = mayDecArr.reduce((num, next) => num + next);
+
+const anatomyFallRow = document.querySelector('#anatomy-fall-row');
+const anatomyFallArr = Object.values(anatomyOfAFall.Globes).concat(Object.values(anatomyOfAFall.Critics));
+const anatomyFallPoints = anatomyFallArr.reduce((num, next) => num + next);
+
+const zoneInterestRow = document.querySelector('#zone-interest-row');
+const zoneInterestArr = Object.values(zoneOfInterest.Globes).concat(Object.values(zoneOfInterest.Critics));
+const zoneInterestPoints = zoneInterestArr.reduce((num, next) => num + next);
+
+const boyHeronRow = document.querySelector('#boy-heron-row');
+const boyHeronArr = Object.values(boyAndTheHeron.Globes).concat(Object.values(boyAndTheHeron.Critics));
+const boyHeronPoints = boyHeronArr.reduce((num, next) => num + next);
+
+const fiveNightsRow = document.querySelector('#five-nights-row');
+const fiveNightsArr = Object.values(fiveNights.Globes).concat(Object.values(fiveNights.Critics));
+const fiveNightsPoints = fiveNightsArr.reduce((num, next) => num + next);
+
+const ironClawRow = document.querySelector('#iron-claw-row');
+const ironClawArr = Object.values(ironClaw.Globes).concat(Object.values(ironClaw.Critics));
+const ironClawPoints = ironClawArr.reduce((num, next) => num + next);
+
+const leaveWorldRow = document.querySelector('#leave-world-row');
+const leaveWorldArr = Object.values(leaveWorldBehind.Globes).concat(Object.values(leaveWorldBehind.Critics));
+const leaveWorldPoints = leaveWorldArr.reduce((num, next) => num + next);
+
+const sixtyFiveRow = document.querySelector('#sixty-five-row');
+const sixtyFiveArr = Object.values(sixtyFive.Globes).concat(Object.values(sixtyFive.Critics));
+const sixtyFivePoints = sixtyFiveArr.reduce((num, next) => num + next);
+
+const hungerGamesRow = document.querySelector('#hunger-games-row');
+const hungerGamesArr = Object.values(hungerGames.Globes).concat(Object.values(hungerGames.Critics));
+const hungerGamesPoints = hungerGamesArr.reduce((num, next) => num + next);
+
+const insidiousRow = document.querySelector('#insidious-row');
+const insidiousArr = Object.values(insidious.Globes).concat(Object.values(insidious.Critics));
+const insidiousPoints = insidiousArr.reduce((num, next) => num + next);
+
+const spiderverseRow = document.querySelector('#spiderverse-row');
+const spiderverseArr = Object.values(acrossSpiderVerse.Globes).concat(Object.values(acrossSpiderVerse.Critics));
+const spiderversePoints = spiderverseArr.reduce((num, next) => num + next);
+
+const godzillaRow = document.querySelector('#godzilla-row');
+const godzillaArr = Object.values(godzilla.Globes).concat(Object.values(godzilla.Critics));
+const godzillaPoints = godzillaArr.reduce((num, next) => num + next);
+
+const millionMilesRow = document.querySelector('#million-miles-row');
+const millionMilesArr = Object.values(millionMiles.Globes).concat(Object.values(millionMiles.Critics));
+const millionMilesPoints = millionMilesArr.reduce((num, next) => num + next);
+
+const blackberryRow = document.querySelector('#blackberry-row');
+const blackberryArr = Object.values(blackberry.Globes).concat(Object.values(blackberry.Critics));
+const blackberryPoints = blackberryArr.reduce((num, next) => num + next);
+
+const wonkaRow = document.querySelector('#wonka-row');
+const wonkaArr = Object.values(wonka.Globes).concat(Object.values(wonka.Critics));
+const wonkaPoints = wonkaArr.reduce((num, next) => num + next);
+
+const noHFRow = document.querySelector('#hard-feelings-row');
+const noHFArr = Object.values(noHardFeelings.Globes).concat(Object.values(noHardFeelings.Critics));
+const noHFPoints = noHFArr.reduce((num, next) => num + next);
+
+const youThereRow = document.querySelector('#you-there-row');
+const youThereArr = Object.values(areUThereMeMargaret.Globes).concat(Object.values(areUThereMeMargaret.Critics));
+const youTherePoints = youThereArr.reduce((num, next) => num + next);
+
+const oppenheimerRow = document.querySelector('#oppenheimer-row');
+const oppenheimerArr = Object.values(oppenheimer.Globes).concat(Object.values(oppenheimer.Critics));
+const oppenheimerPoints = oppenheimerArr.reduce((num, next) => num + next);
+
+const granTurismoRow = document.querySelector('#gran-turismo-row');
+const granTurismoArr = Object.values(granTurismo.Globes).concat(Object.values(granTurismo.Critics));
+const granTurismoPoints = granTurismoArr.reduce((num, next) => num + next);
+
+const dungeonsDragonsRow = document.querySelector('#dungeons-dragons-row');
+const dungeonsDragonsArr = Object.values(dungeonsDragons.Globes).concat(Object.values(dungeonsDragons.Critics));
+const dungeonsDragonsPoints = dungeonsDragonsArr.reduce((num, next) => num + next);
+
+const superMarioRow = document.querySelector('#mario-row');
+const superMarioArr = Object.values(superMarioMovie.Globes).concat(Object.values(superMarioMovie.Critics));
+const superMarioPoints = superMarioArr.reduce((num, next) => num + next);
+
+const knockCabinRow = document.querySelector('#knock-cabin-row');
+const knockCabinArr = Object.values(knockCabin.Globes).concat(Object.values(knockCabin.Critics));
+const knockCabinPoints = knockCabinArr.reduce((num, next) => num + next);
+
+const johnWickRow = document.querySelector('#john-wick-row');
+const johnWickArr = Object.values(johnWick.Globes).concat(Object.values(johnWick.Critics));
+const johnWickPoints = johnWickArr.reduce((num, next) => num + next);
+
+const renfieldRow = document.querySelector('#renfield-row');
+const renfieldArr = Object.values(renfield.Globes).concat(Object.values(renfield.Critics));
+const renfieldPoints = renfieldArr.reduce((num, next) => num + next);
+
+const missionImpossibleRow = document.querySelector('#mission-impossible-row');
+const missionImpossibleArr = Object.values(missionImpossible.Globes).concat(Object.values(missionImpossible.Critics));
+const missionImpossiblePoints = missionImpossibleArr.reduce((num, next) => num + next);
+
+const clonedTyroneRow = document.querySelector('#tyrone-row');
+const clonedTyroneArr = Object.values(clonedTyrone.Globes).concat(Object.values(clonedTyrone.Critics));
+const clonedTyronePoints = clonedTyroneArr.reduce((num, next) => num + next);
+
 function addPoints() {
   const newTd = document.createElement('td');
   const sumOfPoints = (15 + 15 + 15);
@@ -692,7 +935,7 @@ function addPoints() {
 
   // newTd.innerText = (15 + 15 + 15);
   // return eeaaoRow.appendChild(newTd);
-  eeaaoRow.appendChild(newTd);
+  // eeaaoRow.appendChild(newTd);
 
   const airTd = document.createElement('td');
   airTd.innerText = `${airPoints}`;
@@ -728,6 +971,171 @@ function addPoints() {
   plivesTd.innerText = `${plPoints}`;
   plivesTd.classList.add('points-td');
   pastLivesRow.appendChild(plivesTd);
+
+  const pThingsTd = document.createElement('td');
+  pThingsTd.innerText = `${ptPoints}`;
+  pThingsTd.classList.add('points-td');
+  poorThingsRow.appendChild(pThingsTd);
+
+  const boysBoatTd = document.createElement('td');
+  boysBoatTd.innerText = `${boysBoatPoints}`;
+  boysBoatTd.classList.add('points-td');
+  boysBoatRow.appendChild(boysBoatTd);
+
+  const amFicTd = document.createElement('td');
+  amFicTd.innerText = `${amFicPoints}`;
+  amFicTd.classList.add('points-td');
+  amerFicRow.appendChild(amFicTd);
+
+  const nyadTd = document.createElement('td');
+  nyadTd.innerText = `${nyadPoints}`;
+  nyadTd.classList.add('points-td');
+  nyadRow.appendChild(nyadTd);
+
+  const rustinTd = document.createElement('td');
+  rustinTd.innerText = `${rustinPoints}`;
+  rustinTd.classList.add('points-td');
+  rustinRow.appendChild(rustinTd);
+
+  const rebMoonTd = document.createElement('td');
+  rebMoonTd.innerText = `${rebMoonPoints}`;
+  rebMoonTd.classList.add('points-td');
+  rebelMoonRow.appendChild(rebMoonTd);
+
+  const flowerMoonTd = document.createElement('td');
+  flowerMoonTd.innerText = `${flowerMoonPoints}`;
+  flowerMoonTd.classList.add('points-td');
+  flowerMoonRow.appendChild(flowerMoonTd);
+
+  const mayDecTd = document.createElement('td');
+  mayDecTd.innerText = `${mayDecPoints}`;
+  mayDecTd.classList.add('points-td');
+  mayDecRow.appendChild(mayDecTd);
+
+  const anatFallTd = document.createElement('td');
+  anatFallTd.innerText = `${anatomyFallPoints}`;
+  anatFallTd.classList.add('points-td');
+  anatomyFallRow.appendChild(anatFallTd);
+
+  const zoneIntTd = document.createElement('td');
+  zoneIntTd.innerText = `${zoneInterestPoints}`;
+  zoneIntTd.classList.add('points-td');
+  zoneInterestRow.appendChild(zoneIntTd);
+
+  const boyHeronTd = document.createElement('td');
+  boyHeronTd.innerText = `${boyHeronPoints}`;
+  boyHeronTd.classList.add('points-td');
+  boyHeronRow.appendChild(boyHeronTd);
+
+  const fiveNightsTd = document.createElement('td');
+  fiveNightsTd.innerText = `${fiveNightsPoints}`;
+  fiveNightsTd.classList.add('points-td');
+  fiveNightsRow.appendChild(fiveNightsTd);
+
+  const ironClawTd = document.createElement('td');
+  ironClawTd.innerText = `${ironClawPoints}`;
+  ironClawTd.classList.add('points-td');
+  ironClawRow.appendChild(ironClawTd);
+
+  const leaveWorldTd = document.createElement('td');
+  leaveWorldTd.innerText = `${leaveWorldPoints}`;
+  leaveWorldTd.classList.add('points-td');
+  leaveWorldRow.appendChild(leaveWorldTd);
+
+  const sixtyFiveTd = document.createElement('td');
+  sixtyFiveTd.innerText = `${sixtyFivePoints}`;
+  sixtyFiveTd.classList.add('points-td');
+  sixtyFiveRow.appendChild(sixtyFiveTd);
+
+  const hungerGamesTd = document.createElement('td');
+  hungerGamesTd.innerText = `${hungerGamesPoints}`;
+  hungerGamesTd.classList.add('points-td');
+  hungerGamesRow.appendChild(hungerGamesTd);
+
+  const insidiousTd = document.createElement('td');
+  insidiousTd.innerText = `${insidiousPoints}`;
+  insidiousTd.classList.add('points-td');
+  insidiousRow.appendChild(insidiousTd);
+
+  const spiderverseTd = document.createElement('td');
+  spiderverseTd.innerText = `${spiderversePoints}`;
+  spiderverseTd.classList.add('points-td');
+  spiderverseRow.appendChild(spiderverseTd);
+
+  const godzillaTd = document.createElement('td');
+  godzillaTd.innerText = `${godzillaPoints}`;
+  godzillaTd.classList.add('points-td');
+  godzillaRow.appendChild(godzillaTd);
+
+  const millionMilesTd = document.createElement('td');
+  millionMilesTd.innerText = `${millionMilesPoints}`;
+  millionMilesTd.classList.add('points-td');
+  millionMilesRow.appendChild(millionMilesTd);
+
+  const blackberryTd = document.createElement('td');
+  blackberryTd.innerText = `${blackberryPoints}`;
+  blackberryTd.classList.add('points-td');
+  blackberryRow.appendChild(blackberryTd);
+
+  const wonkaTd = document.createElement('td');
+  wonkaTd.innerText = `${wonkaPoints}`;
+  wonkaTd.classList.add('points-td');
+  wonkaRow.appendChild(wonkaTd);
+
+  const noHFTd = document.createElement('td');
+  noHFTd.innerText = `${noHFPoints}`;
+  noHFTd.classList.add('points-td');
+  noHFRow.appendChild(noHFTd);
+
+  const youThereTd = document.createElement('td');
+  youThereTd.innerText = `${youTherePoints}`;
+  youThereTd.classList.add('points-td');
+  youThereRow.appendChild(youThereTd);
+
+  const oppenheimerTd = document.createElement('td');
+  oppenheimerTd.innerText = `${oppenheimerPoints}`;
+  oppenheimerTd.classList.add('points-td');
+  oppenheimerRow.appendChild(oppenheimerTd);
+
+  const granTurismoTd = document.createElement('td');
+  granTurismoTd.innerText = `${granTurismoPoints}`;
+  granTurismoTd.classList.add('points-td');
+  granTurismoRow.appendChild(granTurismoTd);
+
+  const dungeonsDragonsTd = document.createElement('td');
+  dungeonsDragonsTd.innerText = `${dungeonsDragonsPoints}`;
+  dungeonsDragonsTd.classList.add('points-td');
+  dungeonsDragonsRow.appendChild(dungeonsDragonsTd);
+
+  const superMarioTd = document.createElement('td');
+  superMarioTd.innerText = `${superMarioPoints}`;
+  superMarioTd.classList.add('points-td');
+  superMarioRow.appendChild(superMarioTd);
+
+  const knockCabinTd = document.createElement('td');
+  knockCabinTd.innerText = `${knockCabinPoints}`;
+  knockCabinTd.classList.add('points-td');
+  knockCabinRow.appendChild(knockCabinTd);
+
+  const johnWickTd = document.createElement('td');
+  johnWickTd.innerText = `${johnWickPoints}`;
+  johnWickTd.classList.add('points-td');
+  johnWickRow.appendChild(johnWickTd);
+
+  const renfieldTd = document.createElement('td');
+  renfieldTd.innerText = `${renfieldPoints}`;
+  renfieldTd.classList.add('points-td');
+  renfieldRow.appendChild(renfieldTd);
+
+  const missionImpossibleTd = document.createElement('td');
+  missionImpossibleTd.innerText = `${missionImpossiblePoints}`;
+  missionImpossibleTd.classList.add('points-td');
+  missionImpossibleRow.appendChild(missionImpossibleTd);
+
+  const clonedTyroneTd = document.createElement('td');
+  clonedTyroneTd.innerText = `${clonedTyronePoints}`;
+  clonedTyroneTd.classList.add('points-td');
+  clonedTyroneRow.appendChild(clonedTyroneTd);
 }
 
 

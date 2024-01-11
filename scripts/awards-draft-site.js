@@ -347,12 +347,17 @@ const points = {
 const oppenheimer = {
   Globes: {
     'Best Drama Nom': 5,
+    'Best Drama Win': 5,
     'Best Actor Drama Nom': 4,
+    'Best Actor Drama Win': 4,
     'Best Director Nom': 4,
+    'Best Director Win': 4,
     'Best Supporting Actor Nom': 3,
+    'Best Supporting Actor Win': 3,
     'Best Supporting Actress Nom': 3,
     'Best Screenplay Nom': 2,
     'Best Original Score Nom': 2,
+    'Best Original Score Win': 2,
   },
   Critics: {
     'Best Picture Nom': 4,
@@ -363,12 +368,19 @@ const oppenheimer = {
     'Best Acting Ensemble Nom': 2,
     'Best Adapted Screenplay Nom': 1,
   },
+  Sag: {
+    'Best Ensemble Nom': 4,
+    'Best Actor Nom': 3,
+    'Best Supporting Actress Nom': 2,
+    'Best Supporting Actor Nom': 2,
+  }
 }
 const killersOfFlowerMoon = {
   Globes: {
     'Best Drama Nom': 5,
     'Best Actor Drama Nom': 4,
     'Best Actress Drama Nom': 4,
+    'Best Actress Drama Win': 4,
     'Best Director Nom': 4,
     'Best Supporting Actor Nom': 3,
     'Best Screenplay Nom': 2,
@@ -383,6 +395,11 @@ const killersOfFlowerMoon = {
     'Best Acting Ensemble Nom': 2,
     'Best Adapted Screenplay Nom': 1,
   },
+  Sag: {
+    'Best Ensemble Nom': 4,
+    'Best Actress Nom': 3,
+    'Best Supporting Actor Nom': 2,
+  }
 }
 const maestro = {
   Globes: {
@@ -398,6 +415,10 @@ const maestro = {
     'Best Director Nom': 3,
     'Best Original Screenplay Nom': 1,
   },
+  Sag: {
+    'Best Actress Nom': 3,
+    'Best Actor Nom': 3,
+  }
 }
 const pastLives = {
   Globes: {
@@ -412,6 +433,9 @@ const pastLives = {
     'Best Actress Nom': 3,
     'Best Original Screenplay Nom': 1,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const zoneOfInterest = {
   Globes: {
@@ -421,6 +445,9 @@ const zoneOfInterest = {
   },
   Critics: {
     'no noms': 0
+  },
+  Sag: {
+    'no noms': 0
   }
 }
 const anatomyOfAFall = {
@@ -428,11 +455,16 @@ const anatomyOfAFall = {
     'Best Drama Nom': 5,
     'Best Actress Drama Nom': 4,
     'Best Screenplay Nom': 2,
+    'Best Screenplay Win': 2,
     'Best Foreign Film Nom': 2,
+    'Best Foreign Film Win': 2,
   },
   Critics: {
     'Best Actress Nom': 3,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const barbie = {
   Globes: {
@@ -442,6 +474,7 @@ const barbie = {
     'Best Supporting Actor Nom': 3,
     'Best Screenplay Nom': 2,
     'Best Original Song Nom': (2 + 2 + 2),
+    'Best Original Song Win': 2,
   },
   Critics: {
     'Best Picture Nom': 4,
@@ -452,11 +485,20 @@ const barbie = {
     'Best Acting Ensemble Nom': 2,
     'Best Original Screenplay Nom': 1,
   },
+  Sag: {
+    'Best Ensemble Nom': 4,
+    'Best Actress Nom': 3,
+    'Best Supporting Actor Nom': 2,
+    'Best Stunt Nom': 1,
+
+  }
 }
 const poorThings = {
   Globes: {
     'Best Musical/Comedy Nom': 5,
+    'Best Musical/Comedy Win': 5,
     'Best Actress Musical/Comedy Nom': 4,
+    'Best Actress Musical/Comedy Win': 4,
     'Best Director Nom': 4,
     'Best Supporting Actor Nom': (3 + 3),
     'Best Screenplay Nom': 2,
@@ -469,6 +511,10 @@ const poorThings = {
     'Best Supporting Actor Nom': 2,
     'Best Adapted Screenplay Nom': 1,
   },
+  Sag: {
+    'Best Actress Nom': 3,
+    'Best Supporting Actor Nom': 2,
+  }
 }
 const americanFiction = {
   Globes: {
@@ -481,12 +527,19 @@ const americanFiction = {
     'Best Supporting Actor Nom': 2,
     'Best Adapted Screenplay Nom': 1,
   },
+  Sag: {
+    'Best Ensemble Nom': 4,
+    'Best Actor Nom': 3,
+    'Best Supporting Actor Nom': 2,
+  }
 }
 const theHoldovers = {
   Globes: {
     'Best Musical/Comedy Nom': 5,
     'Best Actor Musical/Comedy Nom': 4,
+    'Best Actor Musical/Comedy Win': 4,
     'Best Supporting Actress Nom': 3,
+    'Best Supporting Actress Win': 3,
   },
   Critics: {
     'Best Picture Nom': 4,
@@ -496,6 +549,10 @@ const theHoldovers = {
     'Best Acting Ensemble Nom': 2,
     'Best Original Screenplay Nom': 1,
   },
+  Sag: {
+    'Best Actor Nom': 3,
+    'Best Supporting Actress Nom': 2,
+  }
 }
 const mayDecember = {
   Globes: {
@@ -509,6 +566,9 @@ const mayDecember = {
     'Best Supporting Actress Nom': 2,
     'Best Original Screenplay Nom': 1,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const air = {
   Globes: {
@@ -519,6 +579,9 @@ const air = {
     'Best Acting Ensemble Nom': 2,
     'Best Original Screenplay Nom': 1,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const rustin = {
   Globes: {
@@ -528,6 +591,9 @@ const rustin = {
   Critics: {
     'Best Actor Nom': 3,
   },
+  Sag: {
+    'Best Actor Nom': 3,
+  }
 }
 const fiveNights = {
   Globes: {
@@ -536,6 +602,9 @@ const fiveNights = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const saltburn = {
   Globes: {
@@ -545,6 +614,9 @@ const saltburn = {
   Critics: {
     'Best Picture Nom': 4,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const nyad = {
   Globes: {
@@ -554,12 +626,19 @@ const nyad = {
   Critics: {
     'Best Supporting Actress Nom': 2,
   },
+  Sag: {
+    'Best Actress Nom': 3,
+    'Best Supporting Actress Nom': 2,
+  }
 }
 const ironClaw = {
   Globes: {
     'no noms': 0
   },
   Critics: {
+    'no noms': 0
+  },
+  Sag: {
     'no noms': 0
   }
 }
@@ -573,6 +652,10 @@ const theColorPurple = {
     'Best Supporting Actress Nom': 2,
     'Best Acting Ensemble Nom': 2,
   },
+  Sag: {
+    'Best Ensemble Nom': 4,
+    'Best Supporting Actress Nom': 2,
+  }
 }
 const noHardFeelings = {
   Globes: {
@@ -581,6 +664,9 @@ const noHardFeelings = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const leaveWorldBehind = {
   Globes: {
@@ -589,6 +675,9 @@ const leaveWorldBehind = {
   Critics: {
     'no noms': 0
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const hungerGames = {
   Globes: {
@@ -597,6 +686,9 @@ const hungerGames = {
   Critics: {
     'no noms': 0
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const wonka = {
   Globes: {
@@ -605,6 +697,9 @@ const wonka = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const insidious = {
   Globes: {
@@ -613,13 +708,20 @@ const insidious = {
   Critics: {
     'no noms': 0
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const boyAndTheHeron = {
   Globes: {
     'Best Animated Feature Nom': 4,
+    'Best Animated Feature Win': 4,
     'Best Original Score Nom': 2,
   },
   Critics: {
+    'no noms': 0
+  },
+  Sag: {
     'no noms': 0
   }
 }
@@ -630,6 +732,9 @@ const granTurismo = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const acrossSpiderVerse = {
   Globes: {
@@ -639,6 +744,9 @@ const acrossSpiderVerse = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const superMarioMovie = {
   Globes: {
@@ -648,6 +756,9 @@ const superMarioMovie = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const dungeonsDragons = {
   Globes: {
@@ -656,6 +767,9 @@ const dungeonsDragons = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const knockCabin = {
   Globes: {
@@ -664,6 +778,9 @@ const knockCabin = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const johnWick = {
   Globes: {
@@ -672,6 +789,9 @@ const johnWick = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'Best Stunt Nom': 1,
+  }
 }
 const sixtyFive = {
   Globes: {
@@ -680,6 +800,9 @@ const sixtyFive = {
   Critics: {
     'no noms': 0
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const renfield = {
   Globes: {
@@ -688,6 +811,9 @@ const renfield = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const areUThereMeMargaret = {
   Globes: {
@@ -695,6 +821,9 @@ const areUThereMeMargaret = {
   },
   Critics: {
     'Best Adapted Screenplay Nom': 1,
+  },
+  Sag: {
+    'no noms': 0
   }
 }
 
@@ -704,6 +833,9 @@ const boysBoat = {
   },
   Critics: {
     'no noms': 0,
+  },
+  Sag: {
+    'no noms': 0
   }
 }
 
@@ -714,6 +846,9 @@ const rebelMoon = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 
 const godzilla = {
@@ -723,6 +858,9 @@ const godzilla = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 
 const millionMiles = {
@@ -732,6 +870,9 @@ const millionMiles = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 
 const blackberry = {
@@ -741,6 +882,9 @@ const blackberry = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 const missionImpossible = {
   Globes: {
@@ -749,6 +893,9 @@ const missionImpossible = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'Best Stunt Nom': 1,
+  }
 }
 const clonedTyrone = {
   Globes: {
@@ -757,6 +904,9 @@ const clonedTyrone = {
   Critics: {
     'no noms': 0,
   },
+  Sag: {
+    'no noms': 0
+  }
 }
 
 
@@ -767,163 +917,163 @@ document.body.onload = addPoints;
 const eeaaoRow = document.querySelector('#EEAAO-row');
 
 const airRow = document.querySelector('#air-row');
-const airArr = Object.values(air.Globes).concat(Object.values(air.Critics));
+const airArr = Object.values(air.Globes).concat(Object.values(air.Critics)).concat(Object.values(air.Sag));
 const airPoints = airArr.reduce((num, next) => num + next);
 
 const colorPurpleRow = document.querySelector('#color-purple-row');
-const cpArr = Object.values(theColorPurple.Globes).concat(Object.values(theColorPurple.Critics));
+const cpArr = Object.values(theColorPurple.Globes).concat(Object.values(theColorPurple.Critics)).concat(Object.values(theColorPurple.Sag));
 const cpPoints = cpArr.reduce((num, next) => num + next);
 
 const barbieRow = document.querySelector('#barbie-row');
-const barbieArr = Object.values(barbie.Globes).concat(Object.values(barbie.Critics));
+const barbieArr = Object.values(barbie.Globes).concat(Object.values(barbie.Critics)).concat(Object.values(barbie.Sag));
 const barbiePoints = barbieArr.reduce((num, next) => num + next);
 
 const holdoversRow = document.querySelector('#holdovers-row');
-const holdoversArr = Object.values(theHoldovers.Globes).concat(Object.values(theHoldovers.Critics));
+const holdoversArr = Object.values(theHoldovers.Globes).concat(Object.values(theHoldovers.Critics)).concat(Object.values(theHoldovers.Sag));
 const holdoverPoints = holdoversArr.reduce((num, next) => num + next);
 
 const saltburnRow = document.querySelector('#saltburn-row');
-const saltburnArr = Object.values(saltburn.Globes).concat(Object.values(saltburn.Critics));
+const saltburnArr = Object.values(saltburn.Globes).concat(Object.values(saltburn.Critics)).concat(Object.values(saltburn.Sag));
 const saltburnPoints = saltburnArr.reduce((num, next) => num + next);
 
 const maestroRow = document.querySelector('#maestro-row');
-const maestroArr = Object.values(maestro.Globes).concat(Object.values(maestro.Critics));
+const maestroArr = Object.values(maestro.Globes).concat(Object.values(maestro.Critics)).concat(Object.values(maestro.Sag));
 const maestroPoints = maestroArr.reduce((num, next) => num + next);
 
 const pastLivesRow = document.querySelector('#past-lives-row');
-const plArr = Object.values(pastLives.Globes).concat(Object.values(pastLives.Critics));
+const plArr = Object.values(pastLives.Globes).concat(Object.values(pastLives.Critics)).concat(Object.values(pastLives.Sag));
 const plPoints = plArr.reduce((num, next) => num + next);
 
 const poorThingsRow = document.querySelector('#poor-things-row');
-const ptArr = Object.values(poorThings.Globes).concat(Object.values(poorThings.Critics));
+const ptArr = Object.values(poorThings.Globes).concat(Object.values(poorThings.Critics)).concat(Object.values(poorThings.Sag));
 const ptPoints = ptArr.reduce((num, next) => num + next);
 
 const boysBoatRow = document.querySelector('#boys-boat-row');
-const boysBoatArr = Object.values(boysBoat.Globes).concat(Object.values(boysBoat.Critics));
+const boysBoatArr = Object.values(boysBoat.Globes).concat(Object.values(boysBoat.Critics)).concat(Object.values(boysBoat.Sag));
 const boysBoatPoints = boysBoatArr.reduce((num, next) => num + next);
 
 const amerFicRow = document.querySelector('#amer-fic-row');
-const amFicArr = Object.values(americanFiction.Globes).concat(Object.values(americanFiction.Critics));
+const amFicArr = Object.values(americanFiction.Globes).concat(Object.values(americanFiction.Critics)).concat(Object.values(americanFiction.Sag));
 const amFicPoints = amFicArr.reduce((num, next) => num + next);
 
 const nyadRow = document.querySelector('#nyad-row');
-const nyadArr = Object.values(nyad.Globes).concat(Object.values(nyad.Critics));
+const nyadArr = Object.values(nyad.Globes).concat(Object.values(nyad.Critics)).concat(Object.values(nyad.Sag));
 const nyadPoints = nyadArr.reduce((num, next) => num + next);
 
 const rustinRow = document.querySelector('#rustin-row');
-const rustinArr = Object.values(rustin.Globes).concat(Object.values(rustin.Critics));
+const rustinArr = Object.values(rustin.Globes).concat(Object.values(rustin.Critics)).concat(Object.values(rustin.Sag));
 const rustinPoints = rustinArr.reduce((num, next) => num + next);
 
 const rebelMoonRow = document.querySelector('#rebel-moon-row');
-const rebMoonArr = Object.values(rebelMoon.Globes).concat(Object.values(rebelMoon.Critics));
+const rebMoonArr = Object.values(rebelMoon.Globes).concat(Object.values(rebelMoon.Critics)).concat(Object.values(rebelMoon.Sag));
 const rebMoonPoints = rebMoonArr.reduce((num, next) => num + next);
 
 const flowerMoonRow = document.querySelector('#flower-moon-row');
-const flowerMoonArr = Object.values(killersOfFlowerMoon.Globes).concat(Object.values(killersOfFlowerMoon.Critics));
+const flowerMoonArr = Object.values(killersOfFlowerMoon.Globes).concat(Object.values(killersOfFlowerMoon.Critics)).concat(Object.values(killersOfFlowerMoon.Sag));
 const flowerMoonPoints = flowerMoonArr.reduce((num, next) => num + next);
 
 const mayDecRow = document.querySelector('#may-dec-row');
-const mayDecArr = Object.values(mayDecember.Globes).concat(Object.values(mayDecember.Critics));
+const mayDecArr = Object.values(mayDecember.Globes).concat(Object.values(mayDecember.Critics)).concat(Object.values(mayDecember.Sag));
 const mayDecPoints = mayDecArr.reduce((num, next) => num + next);
 
 const anatomyFallRow = document.querySelector('#anatomy-fall-row');
-const anatomyFallArr = Object.values(anatomyOfAFall.Globes).concat(Object.values(anatomyOfAFall.Critics));
+const anatomyFallArr = Object.values(anatomyOfAFall.Globes).concat(Object.values(anatomyOfAFall.Critics)).concat(Object.values(anatomyOfAFall.Sag));
 const anatomyFallPoints = anatomyFallArr.reduce((num, next) => num + next);
 
 const zoneInterestRow = document.querySelector('#zone-interest-row');
-const zoneInterestArr = Object.values(zoneOfInterest.Globes).concat(Object.values(zoneOfInterest.Critics));
+const zoneInterestArr = Object.values(zoneOfInterest.Globes).concat(Object.values(zoneOfInterest.Critics)).concat(Object.values(zoneOfInterest.Sag));
 const zoneInterestPoints = zoneInterestArr.reduce((num, next) => num + next);
 
 const boyHeronRow = document.querySelector('#boy-heron-row');
-const boyHeronArr = Object.values(boyAndTheHeron.Globes).concat(Object.values(boyAndTheHeron.Critics));
+const boyHeronArr = Object.values(boyAndTheHeron.Globes).concat(Object.values(boyAndTheHeron.Critics)).concat(Object.values(boyAndTheHeron.Sag));
 const boyHeronPoints = boyHeronArr.reduce((num, next) => num + next);
 
 const fiveNightsRow = document.querySelector('#five-nights-row');
-const fiveNightsArr = Object.values(fiveNights.Globes).concat(Object.values(fiveNights.Critics));
+const fiveNightsArr = Object.values(fiveNights.Globes).concat(Object.values(fiveNights.Critics)).concat(Object.values(fiveNights.Sag));
 const fiveNightsPoints = fiveNightsArr.reduce((num, next) => num + next);
 
 const ironClawRow = document.querySelector('#iron-claw-row');
-const ironClawArr = Object.values(ironClaw.Globes).concat(Object.values(ironClaw.Critics));
+const ironClawArr = Object.values(ironClaw.Globes).concat(Object.values(ironClaw.Critics)).concat(Object.values(ironClaw.Sag));
 const ironClawPoints = ironClawArr.reduce((num, next) => num + next);
 
 const leaveWorldRow = document.querySelector('#leave-world-row');
-const leaveWorldArr = Object.values(leaveWorldBehind.Globes).concat(Object.values(leaveWorldBehind.Critics));
+const leaveWorldArr = Object.values(leaveWorldBehind.Globes).concat(Object.values(leaveWorldBehind.Critics)).concat(Object.values(leaveWorldBehind.Sag));
 const leaveWorldPoints = leaveWorldArr.reduce((num, next) => num + next);
 
 const sixtyFiveRow = document.querySelector('#sixty-five-row');
-const sixtyFiveArr = Object.values(sixtyFive.Globes).concat(Object.values(sixtyFive.Critics));
+const sixtyFiveArr = Object.values(sixtyFive.Globes).concat(Object.values(sixtyFive.Critics)).concat(Object.values(sixtyFive.Sag));
 const sixtyFivePoints = sixtyFiveArr.reduce((num, next) => num + next);
 
 const hungerGamesRow = document.querySelector('#hunger-games-row');
-const hungerGamesArr = Object.values(hungerGames.Globes).concat(Object.values(hungerGames.Critics));
+const hungerGamesArr = Object.values(hungerGames.Globes).concat(Object.values(hungerGames.Critics)).concat(Object.values(hungerGames.Sag));
 const hungerGamesPoints = hungerGamesArr.reduce((num, next) => num + next);
 
 const insidiousRow = document.querySelector('#insidious-row');
-const insidiousArr = Object.values(insidious.Globes).concat(Object.values(insidious.Critics));
+const insidiousArr = Object.values(insidious.Globes).concat(Object.values(insidious.Critics)).concat(Object.values(insidious.Sag));
 const insidiousPoints = insidiousArr.reduce((num, next) => num + next);
 
 const spiderverseRow = document.querySelector('#spiderverse-row');
-const spiderverseArr = Object.values(acrossSpiderVerse.Globes).concat(Object.values(acrossSpiderVerse.Critics));
+const spiderverseArr = Object.values(acrossSpiderVerse.Globes).concat(Object.values(acrossSpiderVerse.Critics)).concat(Object.values(acrossSpiderVerse.Sag));
 const spiderversePoints = spiderverseArr.reduce((num, next) => num + next);
 
 const godzillaRow = document.querySelector('#godzilla-row');
-const godzillaArr = Object.values(godzilla.Globes).concat(Object.values(godzilla.Critics));
+const godzillaArr = Object.values(godzilla.Globes).concat(Object.values(godzilla.Critics)).concat(Object.values(godzilla.Sag));
 const godzillaPoints = godzillaArr.reduce((num, next) => num + next);
 
 const millionMilesRow = document.querySelector('#million-miles-row');
-const millionMilesArr = Object.values(millionMiles.Globes).concat(Object.values(millionMiles.Critics));
+const millionMilesArr = Object.values(millionMiles.Globes).concat(Object.values(millionMiles.Critics)).concat(Object.values(millionMiles.Sag));
 const millionMilesPoints = millionMilesArr.reduce((num, next) => num + next);
 
 const blackberryRow = document.querySelector('#blackberry-row');
-const blackberryArr = Object.values(blackberry.Globes).concat(Object.values(blackberry.Critics));
+const blackberryArr = Object.values(blackberry.Globes).concat(Object.values(blackberry.Critics)).concat(Object.values(blackberry.Sag));
 const blackberryPoints = blackberryArr.reduce((num, next) => num + next);
 
 const wonkaRow = document.querySelector('#wonka-row');
-const wonkaArr = Object.values(wonka.Globes).concat(Object.values(wonka.Critics));
+const wonkaArr = Object.values(wonka.Globes).concat(Object.values(wonka.Critics)).concat(Object.values(wonka.Sag));
 const wonkaPoints = wonkaArr.reduce((num, next) => num + next);
 
 const noHFRow = document.querySelector('#hard-feelings-row');
-const noHFArr = Object.values(noHardFeelings.Globes).concat(Object.values(noHardFeelings.Critics));
+const noHFArr = Object.values(noHardFeelings.Globes).concat(Object.values(noHardFeelings.Critics)).concat(Object.values(noHardFeelings.Sag));
 const noHFPoints = noHFArr.reduce((num, next) => num + next);
 
 const youThereRow = document.querySelector('#you-there-row');
-const youThereArr = Object.values(areUThereMeMargaret.Globes).concat(Object.values(areUThereMeMargaret.Critics));
+const youThereArr = Object.values(areUThereMeMargaret.Globes).concat(Object.values(areUThereMeMargaret.Critics)).concat(Object.values(areUThereMeMargaret.Sag));
 const youTherePoints = youThereArr.reduce((num, next) => num + next);
 
 const oppenheimerRow = document.querySelector('#oppenheimer-row');
-const oppenheimerArr = Object.values(oppenheimer.Globes).concat(Object.values(oppenheimer.Critics));
+const oppenheimerArr = Object.values(oppenheimer.Globes).concat(Object.values(oppenheimer.Critics)).concat(Object.values(oppenheimer.Sag));
 const oppenheimerPoints = oppenheimerArr.reduce((num, next) => num + next);
 
 const granTurismoRow = document.querySelector('#gran-turismo-row');
-const granTurismoArr = Object.values(granTurismo.Globes).concat(Object.values(granTurismo.Critics));
+const granTurismoArr = Object.values(granTurismo.Globes).concat(Object.values(granTurismo.Critics)).concat(Object.values(granTurismo.Sag));
 const granTurismoPoints = granTurismoArr.reduce((num, next) => num + next);
 
 const dungeonsDragonsRow = document.querySelector('#dungeons-dragons-row');
-const dungeonsDragonsArr = Object.values(dungeonsDragons.Globes).concat(Object.values(dungeonsDragons.Critics));
+const dungeonsDragonsArr = Object.values(dungeonsDragons.Globes).concat(Object.values(dungeonsDragons.Critics)).concat(Object.values(dungeonsDragons.Sag));
 const dungeonsDragonsPoints = dungeonsDragonsArr.reduce((num, next) => num + next);
 
 const superMarioRow = document.querySelector('#mario-row');
-const superMarioArr = Object.values(superMarioMovie.Globes).concat(Object.values(superMarioMovie.Critics));
+const superMarioArr = Object.values(superMarioMovie.Globes).concat(Object.values(superMarioMovie.Critics)).concat(Object.values(superMarioMovie.Sag));
 const superMarioPoints = superMarioArr.reduce((num, next) => num + next);
 
 const knockCabinRow = document.querySelector('#knock-cabin-row');
-const knockCabinArr = Object.values(knockCabin.Globes).concat(Object.values(knockCabin.Critics));
+const knockCabinArr = Object.values(knockCabin.Globes).concat(Object.values(knockCabin.Critics)).concat(Object.values(knockCabin.Sag));
 const knockCabinPoints = knockCabinArr.reduce((num, next) => num + next);
 
 const johnWickRow = document.querySelector('#john-wick-row');
-const johnWickArr = Object.values(johnWick.Globes).concat(Object.values(johnWick.Critics));
+const johnWickArr = Object.values(johnWick.Globes).concat(Object.values(johnWick.Critics)).concat(Object.values(johnWick.Sag));
 const johnWickPoints = johnWickArr.reduce((num, next) => num + next);
 
 const renfieldRow = document.querySelector('#renfield-row');
-const renfieldArr = Object.values(renfield.Globes).concat(Object.values(renfield.Critics));
+const renfieldArr = Object.values(renfield.Globes).concat(Object.values(renfield.Critics)).concat(Object.values(renfield.Sag));
 const renfieldPoints = renfieldArr.reduce((num, next) => num + next);
 
 const missionImpossibleRow = document.querySelector('#mission-impossible-row');
-const missionImpossibleArr = Object.values(missionImpossible.Globes).concat(Object.values(missionImpossible.Critics));
+const missionImpossibleArr = Object.values(missionImpossible.Globes).concat(Object.values(missionImpossible.Critics)).concat(Object.values(missionImpossible.Sag));
 const missionImpossiblePoints = missionImpossibleArr.reduce((num, next) => num + next);
 
 const clonedTyroneRow = document.querySelector('#tyrone-row');
-const clonedTyroneArr = Object.values(clonedTyrone.Globes).concat(Object.values(clonedTyrone.Critics));
+const clonedTyroneArr = Object.values(clonedTyrone.Globes).concat(Object.values(clonedTyrone.Critics)).concat(Object.values(clonedTyrone.Sag));
 const clonedTyronePoints = clonedTyroneArr.reduce((num, next) => num + next);
 
 function addPoints() {

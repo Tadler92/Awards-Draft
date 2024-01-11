@@ -9,6 +9,8 @@ const poorThings = {
     'Best Supporting Actor': (3 + 3),
     'Best Screenplay': 2,
     'Best Original Score': 2,
+    'Musical/Comedy Win': 5,
+    'Actress Musical/Comedy Win': 4,
   },
   Critics: {
     'Best Picture': 4,
@@ -39,6 +41,8 @@ function putInfoOnPage() {
   globesNomTD1.innerText = `${globesPoints[0]} pts`;
   globesNomTD1.classList.add('nom-column');
   globesRow1.appendChild(globesNomTD1);
+  globesWinTD1.innerText = `${globesPoints[6]} pts`;
+  globesWinTD1.classList.add('win-column');
   globesRow1.appendChild(globesWinTD1);
   globesTbody.appendChild(globesRow1);
   // const nom2 = document.createElement('p');
@@ -51,6 +55,8 @@ function putInfoOnPage() {
   globesNomTD2.innerText = `${globesPoints[1]} pts`;
   globesNomTD2.classList.add('nom-column');
   globesRow2.appendChild(globesNomTD2);
+  globesWinTD2.innerText = `${globesPoints[7]} pts`;
+  globesWinTD2.classList.add('win-column');
   globesRow2.appendChild(globesWinTD2);
   globesTbody.appendChild(globesRow2);
 

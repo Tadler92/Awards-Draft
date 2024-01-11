@@ -20,3 +20,10 @@ th {
   padding-left: 60px;
   white-space: nowrap;
 }
+
+.win-column {
+  width: 100px;
+  /* border: 100px; */
+  padding-left: 85px;
+  white-space: nowrap;
+}

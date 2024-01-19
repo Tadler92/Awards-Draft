@@ -361,11 +361,15 @@ const oppenheimer = {
   },
   Critics: {
     'Best Picture Nom': 4,
+    'Best Picture Win': 4,
     'Best Actor Nom': 3,
     'Best Director Nom': 3,
+    'Best Director Win': 3,
     'Best Supporting Actor Nom': 2,
+    'Best Supporting Actor Win': 2,
     'Best Supporting Actress Nom': 2,
     'Best Acting Ensemble Nom': 2,
+    'Best Acting Ensemble Win': 2,
     'Best Adapted Screenplay Nom': 1,
   },
   Sag: {
@@ -484,6 +488,7 @@ const barbie = {
     'Best Supporting Actress Nom': 2,
     'Best Acting Ensemble Nom': 2,
     'Best Original Screenplay Nom': 1,
+    'Best Original Screenplay Win': 1,
   },
   Sag: {
     'Best Ensemble Nom': 4,
@@ -507,6 +512,7 @@ const poorThings = {
   Critics: {
     'Best Picture Nom': 4,
     'Best Actress Nom': 3,
+    'Best Actress Win': 3,
     'Best Director Nom': 3,
     'Best Supporting Actor Nom': 2,
     'Best Adapted Screenplay Nom': 1,
@@ -526,6 +532,7 @@ const americanFiction = {
     'Best Actor Nom': 3,
     'Best Supporting Actor Nom': 2,
     'Best Adapted Screenplay Nom': 1,
+    'Best Adapted Screenplay Win': 1,
   },
   Sag: {
     'Best Ensemble Nom': 4,
@@ -544,8 +551,10 @@ const theHoldovers = {
   Critics: {
     'Best Picture Nom': 4,
     'Best Actor Nom': 3,
+    'Best Actor Win': 3,
     'Best Director Nom': 3,
     'Best Supporting Actress Nom': 2,
+    'Best Supporting Actress Win': 2,
     'Best Acting Ensemble Nom': 2,
     'Best Original Screenplay Nom': 1,
   },

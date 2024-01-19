@@ -36,6 +36,8 @@ function putInfoOnPage() {
   globesNomTD1.innerText = `${globesPoints[0]} pts`;
   globesNomTD1.classList.add('nom-column');
   globesRow1.appendChild(globesNomTD1);
+  globesWinTD1.innerText = '-----';
+  globesWinTD1.classList.add('win-column');
   globesRow1.appendChild(globesWinTD1);
   globesTbody.appendChild(globesRow1);
   // const nom2 = document.createElement('p');
@@ -48,6 +50,8 @@ function putInfoOnPage() {
   globesNomTD2.innerText = `${globesPoints[1]} pts`;
   globesNomTD2.classList.add('nom-column');
   globesRow2.appendChild(globesNomTD2);
+  globesWinTD2.innerText = '-----';
+  globesWinTD2.classList.add('win-column');
   globesRow2.appendChild(globesWinTD2);
   globesTbody.appendChild(globesRow2);
 
@@ -60,6 +64,8 @@ function putInfoOnPage() {
   globesNomTD3.innerText = `${globesPoints[2]} pts`;
   globesNomTD3.classList.add('nom-column');
   globesRow3.appendChild(globesNomTD3);
+  globesWinTD3.innerText = '-----';
+  globesWinTD3.classList.add('win-column');
   globesRow3.appendChild(globesWinTD3);
   globesTbody.appendChild(globesRow3);
 
@@ -72,6 +78,8 @@ function putInfoOnPage() {
   globesNomTD4.innerText = `${globesPoints[3]} pts`;
   globesNomTD4.classList.add('nom-column');
   globesRow4.appendChild(globesNomTD4);
+  globesWinTD4.innerText = '-----';
+  globesWinTD4.classList.add('win-column');
   globesRow4.appendChild(globesWinTD4);
   globesTbody.appendChild(globesRow4);
 
@@ -84,6 +92,8 @@ function putInfoOnPage() {
   globesNomTD5.innerText = `${globesPoints[4]} pts`;
   globesNomTD5.classList.add('nom-column');
   globesRow5.appendChild(globesNomTD5);
+  globesWinTD5.innerText = '-----';
+  globesWinTD5.classList.add('win-column');
   globesRow5.appendChild(globesWinTD5);
   globesTbody.appendChild(globesRow5);
 
@@ -98,6 +108,8 @@ function putInfoOnPage() {
   criticsNomTD1.innerText = `${criticsPoints[0]} pts`;
   criticsNomTD1.classList.add('nom-column');
   criticsRow1.appendChild(criticsNomTD1);
+  criticsWinTD1.innerText = '-----';
+  criticsWinTD1.classList.add('win-column');
   criticsRow1.appendChild(criticsWinTD1);
   criticsTbody.appendChild(criticsRow1);
   // const nom2 = document.createElement('p');
@@ -110,6 +122,8 @@ function putInfoOnPage() {
   criticsNomTD2.innerText = `${criticsPoints[1]} pts`;
   criticsNomTD2.classList.add('nom-column');
   criticsRow2.appendChild(criticsNomTD2);
+  criticsWinTD2.innerText = '-----';
+  criticsWinTD2.classList.add('win-column');
   criticsRow2.appendChild(criticsWinTD2);
   criticsTbody.appendChild(criticsRow2);
 
@@ -122,6 +136,8 @@ function putInfoOnPage() {
   criticsNomTD3.innerText = `${criticsPoints[2]} pts`;
   criticsNomTD3.classList.add('nom-column');
   criticsRow3.appendChild(criticsNomTD3);
+  criticsWinTD3.innerText = '-----';
+  criticsWinTD3.classList.add('win-column');
   criticsRow3.appendChild(criticsWinTD3);
   criticsTbody.appendChild(criticsRow3);
 }

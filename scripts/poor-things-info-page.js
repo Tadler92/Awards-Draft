@@ -18,6 +18,7 @@ const poorThings = {
     'Best Director': 3,
     'Best Supporting Actor': 2,
     'Best Adapted Screenplay': 1,
+    'Actress Win': 3
   },
 }
 
@@ -69,6 +70,8 @@ function putInfoOnPage() {
   globesNomTD3.innerText = `${globesPoints[2]} pts`;
   globesNomTD3.classList.add('nom-column');
   globesRow3.appendChild(globesNomTD3);
+  globesWinTD3.innerText = '-----';
+  globesWinTD3.classList.add('win-column');
   globesRow3.appendChild(globesWinTD3);
   globesTbody.appendChild(globesRow3);
 
@@ -81,6 +84,8 @@ function putInfoOnPage() {
   globesNomTD4.innerText = `${globesPoints[3]} pts`;
   globesNomTD4.classList.add('nom-column');
   globesRow4.appendChild(globesNomTD4);
+  globesWinTD4.innerText = '-----';
+  globesWinTD4.classList.add('win-column');
   globesRow4.appendChild(globesWinTD4);
   globesTbody.appendChild(globesRow4);
 
@@ -93,6 +98,8 @@ function putInfoOnPage() {
   globesNomTD5.innerText = `${globesPoints[4]} pts`;
   globesNomTD5.classList.add('nom-column');
   globesRow5.appendChild(globesNomTD5);
+  globesWinTD5.innerText = '-----';
+  globesWinTD5.classList.add('win-column');
   globesRow5.appendChild(globesWinTD5);
   globesTbody.appendChild(globesRow5);
 
@@ -105,6 +112,8 @@ function putInfoOnPage() {
   globesNomTD6.innerText = `${globesPoints[5]} pts`;
   globesNomTD6.classList.add('nom-column');
   globesRow6.appendChild(globesNomTD6);
+  globesWinTD6.innerText = '-----';
+  globesWinTD6.classList.add('win-column');
   globesRow6.appendChild(globesWinTD6);
   globesTbody.appendChild(globesRow6);
   // nom2.innerText = `Best Actor Musical/Comedy   ${globesPoints[1]}`;
@@ -118,6 +127,8 @@ function putInfoOnPage() {
   criticsNomTD1.innerText = `${criticsPoints[0]} pts`;
   criticsNomTD1.classList.add('nom-column');
   criticsRow1.appendChild(criticsNomTD1);
+  criticsWinTD1.innerText = '-----';
+  criticsWinTD1.classList.add('win-column');
   criticsRow1.appendChild(criticsWinTD1);
   criticsTbody.appendChild(criticsRow1);
   // const nom2 = document.createElement('p');
@@ -130,6 +141,8 @@ function putInfoOnPage() {
   criticsNomTD2.innerText = `${criticsPoints[1]} pts`;
   criticsNomTD2.classList.add('nom-column');
   criticsRow2.appendChild(criticsNomTD2);
+  criticsWinTD2.innerText = `${criticsPoints[5]} pts`;
+  criticsWinTD2.classList.add('win-column');
   criticsRow2.appendChild(criticsWinTD2);
   criticsTbody.appendChild(criticsRow2);
 
@@ -142,6 +155,8 @@ function putInfoOnPage() {
   criticsNomTD3.innerText = `${criticsPoints[2]} pts`;
   criticsNomTD3.classList.add('nom-column');
   criticsRow3.appendChild(criticsNomTD3);
+  criticsWinTD3.innerText = '-----';
+  criticsWinTD3.classList.add('win-column');
   criticsRow3.appendChild(criticsWinTD3);
   criticsTbody.appendChild(criticsRow3);
 
@@ -154,6 +169,8 @@ function putInfoOnPage() {
   criticsNomTD4.innerText = `${criticsPoints[3]} pts`;
   criticsNomTD4.classList.add('nom-column');
   criticsRow4.appendChild(criticsNomTD4);
+  criticsWinTD4.innerText = '-----';
+  criticsWinTD4.classList.add('win-column');
   criticsRow4.appendChild(criticsWinTD4);
   criticsTbody.appendChild(criticsRow4);
 
@@ -166,6 +183,8 @@ function putInfoOnPage() {
   criticsNomTD5.innerText = `${criticsPoints[4]} pts`;
   criticsNomTD5.classList.add('nom-column');
   criticsRow5.appendChild(criticsNomTD5);
+  criticsWinTD5.innerText = '-----';
+  criticsWinTD5.classList.add('win-column');
   criticsRow5.appendChild(criticsWinTD5);
   criticsTbody.appendChild(criticsRow5);
 }

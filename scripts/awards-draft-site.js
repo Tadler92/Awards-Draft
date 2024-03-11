@@ -374,30 +374,41 @@ const oppenheimer = {
   },
   Sag: {
     'Best Ensemble Nom': 4,
+    'Best Ensemble Win': 4,
     'Best Actor Nom': 3,
+    'Best Actor Win': 3,
     'Best Supporting Actress Nom': 2,
     'Best Supporting Actor Nom': 2,
+    'Best Supporting Actor Win': 2,
   },
   Dga: {
     'Best Director Theatrical Film Nom': 3,
+    'Best Director Theatrical Film Win': 3,
   },
   Razzies: {
     'no noms': 0,
   },
   Oscars: {
     'Best Picture Nom': 8,
+    'Best Picture Win': 8,
     'Best Director Nom': 6,
+    'Best Director Win': 6,
     'Best Actor Nom': 6,
+    'Best Actor Win': 6,
     'Best Supporting Actress Nom': 4,
     'Best Supporting Actor Nom': 4,
+    'Best Supporting Actor Win': 4,
     'Best Adapted Screenplay Nom': 4,
     'Best Original Score Nom': 3,
+    'Best Original Score Win': 3,
     'Best Cinematography Nom': 2,
+    'Best Cinematography Win': 2,
     'Best Costume Design Nom': 2,
     'Best Makeup and Hairstyling Nom': 2,
     'Best Production Design Nom': 2,
     'Best Sound Nom': 2,
     'Best Film Editing Nom': 2,
+    'Best Film Editing Win': 2,
   },
 }
 const killersOfFlowerMoon = {
@@ -423,6 +434,7 @@ const killersOfFlowerMoon = {
   Sag: {
     'Best Ensemble Nom': 4,
     'Best Actress Nom': 3,
+    'Best Actress Win': 3,
     'Best Supporting Actor Nom': 2,
   },
   Dga: {
@@ -496,6 +508,7 @@ const pastLives = {
   },
   Dga: {
     'Best First-Time Director Nom': 2,
+    'Best First-Time Director Win': 2,
   },
   Razzies: {
     'no noms': 0,
@@ -528,7 +541,9 @@ const zoneOfInterest = {
     'Best Director Nom': 6,
     'Best Adapted Screenplay Nom': 4,
     'Best Foreign Film Nom': 3,
+    'Best Foreign Film Win': 3,
     'Best Sound Nom': 2,
+    'Best Sound Win': 2,
   },
 }
 const anatomyOfAFall = {
@@ -557,6 +572,7 @@ const anatomyOfAFall = {
     'Best Director Nom': 6,
     'Best Actress Nom': 6,
     'Best Original Screenplay Nom': 4,
+    'Best Original Screenplay Win': 4,
     'Best Film Editing Nom': 2,
   },
 }
@@ -599,6 +615,7 @@ const barbie = {
     'Best Supporting Actor Nom': 4,
     'Best Adapted Screenplay Nom': 4,
     'Best Original Song Nom': (3 + 3),
+    'Best Original Song Win': 3,
     'Best Costume Design Nom': 2,
     'Best Production Design Nom': 2,
   },
@@ -636,13 +653,17 @@ const poorThings = {
     'Best Picture Nom': 8,
     'Best Director Nom': 6,
     'Best Actress Nom': 6,
+    'Best Actress Win': 6,
     'Best Supporting Actor Nom': 4,
     'Best Adapted Screenplay Nom': 4,
     'Best Original Score Nom': 3,
     'Best Cinematography Nom': 2,
     'Best Costume Design Nom': 2,
+    'Best Costume Design Win': 2,
     'Best Makeup and Hairstyling Nom': 2,
+    'Best Makeup and Hairstyling Win': 2,
     'Best Production Design Nom': 2,
+    'Best Production Design Win': 2,
     'Best Film Editing Nom': 2,
   },
 }
@@ -674,6 +695,7 @@ const americanFiction = {
     'Best Actor Nom': 6,
     'Best Supporting Actor Nom': 4,
     'Best Adapted Screenplay Nom': 4,
+    'Best Adapted Screenplay Win': 4,
     'Best Original Score Nom': 3,
   },
 }
@@ -698,6 +720,7 @@ const theHoldovers = {
   Sag: {
     'Best Actor Nom': 3,
     'Best Supporting Actress Nom': 2,
+    'Best Supporting Actress Win': 2,
   },
   Dga: {
     'Best Director Theatrical Film Nom': 3,
@@ -709,6 +732,7 @@ const theHoldovers = {
     'Best Picture Nom': 8,
     'Best Actor Nom': 6,
     'Best Supporting Actress Nom': 4,
+    'Best Supporting Actress Win': 4,
     'Best Original Screenplay Nom': 4,
     'Best Film Editing Nom': 2,
   },
@@ -1009,6 +1033,7 @@ const boyAndTheHeron = {
   },
   Oscars: {
     'Best Animated Film Nom': 6,
+    'Best Animated Film Win': 6,
   },
 }
 const granTurismo = {
@@ -1254,6 +1279,7 @@ const godzilla = {
   },
   Oscars: {
     'Best Visual Effects Nom': 2,
+    'Best Visual Effects Win': 2,
   },
 }
 
@@ -1307,6 +1333,7 @@ const missionImpossible = {
   },
   Sag: {
     'Best Stunt Nom': 1,
+    'Best Stunt Win': 1,
   },
   Dga: {
     'no noms': 0,
